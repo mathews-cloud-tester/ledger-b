@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Renamed the exported ledger fee function to `applyServiceFee` (was previously named for the generic fee helper).
+
 ## 0.4.1
 
 - Settlement retries once when the region service times out.
