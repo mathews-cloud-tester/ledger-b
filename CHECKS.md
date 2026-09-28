@@ -11,7 +11,7 @@ the table in the same pull request; removed exports must be deleted from it.
 
 | Export | Module | Purpose |
 | --- | --- | --- |
-| `applyFee` | `src/ledger/fees.ts` | Apply the region fee schedule to an amount |
+| `computeFee` | `src/ledger/fees.ts` | Compute the region fee schedule's charge on an amount |
 | `feeScheduleFor` | `src/ledger/fees.ts` | Look up the fee schedule for a region |
 | `postEntry` | `src/ledger/ledger.ts` | Append a balanced entry to a ledger |
 | `balanceFor` | `src/ledger/ledger.ts` | Compute an account balance |
