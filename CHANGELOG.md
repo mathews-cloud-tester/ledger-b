@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Renamed `applyFee` to `computeFee` (pure rename; behavior unchanged).
+
 ## 0.4.1
 
 - Settlement retries once when the region service times out.
