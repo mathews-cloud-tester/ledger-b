@@ -2,7 +2,7 @@
 
 ## Unreleased
 
-- Renamed the exported `applyFee` function to `applyServiceFee`.
+- Renamed the exported `applyFee` function to `computeServiceFee`.
 
 ## 0.4.1
 
