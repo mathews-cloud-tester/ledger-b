@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Renamed ledger model types to Book* (BookId, BookEntry, BookLine, BookSummary) and the ledgerId field to bookId.
+
 ## 0.4.1
 
 - Settlement retries once when the region service times out.
