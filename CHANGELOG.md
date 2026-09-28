@@ -3,6 +3,7 @@
 ## Unreleased
 
 - Renamed model types `LedgerId`/`LedgerEntry`/`LedgerLine`/`LedgerSummary` to `Book*` and the `ledgerId` field to `bookId`.
+- Renamed the `Ledger` interface to `Book` and `openLedger` to `openBook`.
 
 ## 0.4.1
 
