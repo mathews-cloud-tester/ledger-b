@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Renamed the core `Ledger` type and `openLedger` constructor to `Book` / `openBook`; entry, line, and summary types now use `bookId`.
+
 ## 0.4.1
 
 - Settlement retries once when the region service times out.
