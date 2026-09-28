@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Renamed the `Ledger` domain concept to `Book` in the models/core layer (`Ledger` → `Book`, `openLedger` → `openBook`, `LedgerId`/`LedgerEntry`/`LedgerLine`/`LedgerSummary` → `BookId`/`BookEntry`/`BookLine`/`BookSummary`, field `ledgerId` → `bookId`).
+
 ## 0.4.1
 
 - Settlement retries once when the region service times out.
