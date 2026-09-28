@@ -3,6 +3,7 @@
 ## Unreleased
 
 - Renamed ledger model types to Book* (BookId, BookEntry, BookLine, BookSummary) and the ledgerId field to bookId.
+- Renamed the Ledger interface to Book and openLedger to openBook.
 
 ## 0.4.1
 
