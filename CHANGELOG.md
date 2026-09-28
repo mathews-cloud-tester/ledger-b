@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Renamed the fee-application export `applyFee` to `applyFeeSchedule` for clarity.
+
 ## 0.4.1
 
 - Settlement retries once when the region service times out.
